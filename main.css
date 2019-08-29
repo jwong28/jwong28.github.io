@@ -1,0 +1,36 @@
+
+
+h1 {
+    text-shadow: 3px 1px 9px #aa98a9;
+}
+
+
+.img-circle{
+   -webkit-box-shadow: 5px 5px 5px #111;
+           box-shadow: 15px 18px 18px #111;  
+}
+
+
+
+.Pics {
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+  
+}
+.img, .PicShadwow {
+  -webkit-box-shadow: 5px 5px 5px #111;
+          box-shadow: 5px 5px 5px #111;  
+  
+}
+
+.Pics {
+  opacity: 0.8;
+  }
+.Pics:hover {
+  opacity: 1;
+  }
+
+.jumbotron{
+  background-color: 009fff;
+}
+
