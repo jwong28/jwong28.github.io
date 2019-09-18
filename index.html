@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto Slab'>
   <script  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="main.css"/>
@@ -46,8 +47,8 @@
   
   <!-- BACKGROUND IMAGE -->
 <div id = "container">
-<div class="jumbotron" style="background-image: url(/background.jpg);background-repeat: no-repeat;background-size:cover; color:black;">
-  <div class="container text-center" style="">
+<div class="jumbotron" style="background-image: url(/background.jpg)">
+  <div class="container text-center">
     <h3 style="margin-top: 10%">Hi, my name is</h3>
     <h1 style="margin-top:10px;"style="font-weight:bold;">Jefferson Wong</h1><br><br>      
     <h3 class="text-center" style="font-weight:bold;">Technology can change the world</p> <br><br>
@@ -64,15 +65,17 @@ Github</button></a>
   <a href="https://www.linkedin.com/in/jefferson-wong28/" target="--blank"><button type="button" class="btn btn-primary" styled="background-color:orange;"><i class="fa fa-linkedin"></i>
 LinkedIn</button></a>
   </div>
-<div style="margin:50px;color:#3e424f; text-align: center;">    
-    <br><br><br><br><br>
-    <div id="About">  
+  <br><br><br><br><br>
+</div>
+
+<div class="jumbotron" style="background-image: url(/background2.jpg)">
+<!-- <div style="margin:50px;color:#3e424f; text-align: center;">     -->
+    <br><br><br<<br><br>
+<div id="About">  
             <br><br>
     <!-- PROFILE PIC -->
-
-   <img class="img-circle PicShadow" style="border-style:solid;border-width:thin;border-color:#525766;width:30%;max-width: 250px;max-height: 250px;"  src="/profilePic.jpg">
+      <img class="img-circle PicShadow" style="border-style:solid;border-width:thin;border-color:#525766;width:30%;max-width: 250px;max-height: 250px;"  src="/profilePic.jpg">
   <!-- ABOUT ME -->
-
     <p class="lead" style="margin-top: 50px; font-weight:125;line-height:150%;">
       I am a self-motivated and hard working Senior at Queens College, with majors in Computer Science and Mathematics and 
       minors in Business and Liberal Arts and Accounting. I have coded in Java, Python, C++, C#, Javascript, MongoDB, XML, React, SQL. 
@@ -86,26 +89,128 @@ LinkedIn</button></a>
     <b>Additional Languages Spoken</b><br>
     <p>Cantonese and Mandarin</p><br>
   
-  </div>
+</div>
+</div>
 </div>
 
 
+
   
-  <!-- PORTFOLIO -->                                                                      
-                                                                        
-<div class="container-fluid bg-3 text-center" style="background-color:#fdf5e6;color:#3a0000;" id="Projects">    
+<!-- PORTFOLIO -->
+<div class="jumbotron" style="background-image: url(/background2.jpg)" id="Projects">
+  <div class="container-fluid bg-3 text-center" style="justify-content: center">
   <h3 style="line-height:90%;">My projects</h3><br>
-  <div class="row" style="background-color:#fdf5e6;">
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/budgetTools.JPG">
+          </div>
+        <div class="back">
+            <h2>Budget Tools</h2>
+            <p>Android Studio, Java, Firebase</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/BudgetTools'">
+                <div class="circle">
+                  <span class="icon arrow"></span>
+                </div>
+                <p class="btnText">View Code</p>
+            </button>
+        </div>
+      </div>
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/ktne.JPG">
+          </div>
+        <div class="back">
+            <h2>KTNE Defusal Bot</h2>
+            <p>Python, Google Api</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/KTNE_VoiceBot'">
+              <div class="circle">
+                <span class="icon arrow"></span>
+              </div>
+              <p class="btnText">View Code</p>
+          </button>
+        </div>
+      </div>
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/SARA.jpg">
+          </div>
+        <div class="back">
+            <h2>S.A.R.A</h2>
+            <p>HTML, CSS, PHP, JS</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/S.A.R.A'">
+              <div class="circle">
+                <span class="icon arrow"></span>
+              </div>
+              <p class="btnText">View Code</p>
+          </button>
+        </div>
+      </div>
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/gamehub.jpg">
+          </div>
+        <div class="back">
+            <h2>GameHub 2.0</h2>
+            <p>React, Python, MongoDB</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/GameHub2.0'">
+              <div class="circle">
+                <span class="icon arrow"></span>
+              </div>
+              <p class="btnText">View Code</p>
+          </button>
+        </div>
+      </div>
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/stickdom.jpg">
+          </div>
+        <div class="back">
+            <h2>Stickdom</h2>
+            <p>Phaser 5, JavaScript</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/Stickdom'">
+              <div class="circle">
+                <span class="icon arrow"></span>
+              </div>
+              <p class="btnText">View Code</p>
+          </button>
+        </div>
+      </div>
+      <div class="info-card">
+          <div class="front">
+            <img class="card-image" src="/protobot.jpg">
+          </div>
+        <div class="back">
+            <h2>Protobot</h2>
+            <p>Phaser 5, JavaScript, Python</p>
+            <button class="viewCodeBtn" onclick="window.location.href = 'https://github.com/jwong28/Protobot'">
+              <div class="circle">
+                <span class="icon arrow"></span>
+              </div>
+              <p class="btnText">View Code</p>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- </xdiv>                                                                                                                                -->
+<!-- <div class="container-fluid bg-3 text-center" style="background-color:#fdf5e6;color:#3a0000;" id="Projects">    
+  <h3 style="line-height:90%;">My projects</h3><br>
+  <div class="row" style="background-color:#fdf5e6;"> -->
+    <!-- <div class="col-sm-4"></div> -->
+     
+
+    <!-- <div class="col-sm-4"></div> -->
     
-    <div class="col-sm-4">
+  <!-- </div> -->
+      <!-- <div class="col-sm-4">
       <a href=""><p style="color:#3a0000;">Budget Tools | Android | Java | Firebase </p>
       <img class="Pics" src="/budgetTools.JPG" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-4">
+    </div> -->
+    <!-- <div class="col-sm-4">
       <a href="https://github.com/jwong28/S.A.R.A"><p style="color:#3a0000;">S.A.R.A | HTML | PHP | </p>
       <img class="Pics" src="/SARA.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
-    </div>
-    <div class="col-sm-4">
+    </div> -->
+    <!-- <div class="col-sm-4">
       <a href="https://github.com/jwong28/GameHub2.0"><p style="color:#3a0000;">GameHub 2.0 | React | MongoDB</p>
       <img class="Pics" src="/gamehub.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
     </div>
@@ -119,7 +224,7 @@ LinkedIn</button></a>
   <a href="https://github.com/jwong28/Protobot"><p style="color:#3a0000;">Protobot | Phaser 5 | Python</p>
   <img class="Pics" src="/protobot.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
 </div>
-</div><br>
+</div><br> -->
 
 
 
